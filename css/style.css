@@ -44,11 +44,17 @@ span.discount-amount, span.sustainability{
 	position:absolute;
 	bottom:10px;
 }
+
 span:not(.brand, .price){
 	font-weight: bold;
 }
+
 .card-img{
 	width:100%;
+}
+
+.card-2ndimg{
+	display:none;
 }
 
 .card-description{
@@ -66,3 +72,11 @@ span:not(.brand, .price){
 	top:15px;
 }
 
+.card:hover .card-img{
+	display:none;
+}
+
+.card:hover .card-2ndimg{
+	display:inline-block;
+	width:100%;
+}
