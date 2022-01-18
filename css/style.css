@@ -5,8 +5,10 @@
 }
 
 .raw{
-	width: 80%;
-	margin:20px auto 0px;
+	width:80%;
+	margin:0 auto;
+	padding:30px;
+	text-align: center;
 }
 
 div.card{
@@ -14,6 +16,7 @@ div.card{
 	height:500px;
 	margin-right:10px;
 	position:relative;
+	display: inline-block;
 }
 
 span.discounted-price{
@@ -50,5 +53,16 @@ span:not(.brand, .price){
 
 .card-description{
 	margin-top:5px;
+	text-align: left;
+}
+
+.heart{
+	background-color: white;
+	font-size: 20px;
+	padding:10px;
+	z-index: 1;
+	position:absolute;
+	right:0;
+	top:15px;
 }
 
