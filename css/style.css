@@ -33,8 +33,12 @@ span.discount-amount{
 }
 
 span.sustainability{
-	left:40px;
+   left:35px;
 	background-color: rgb(0, 135, 90)
+}
+
+span.only-tag{
+	left:0;
 }
 
 span.discount-amount, span.sustainability{
@@ -42,7 +46,7 @@ span.discount-amount, span.sustainability{
 	padding:5px;
 	font-size:10px;
 	position:absolute;
-	bottom:10px;
+	bottom:110px;
 }
 
 span:not(.brand, .price){
