@@ -3,3 +3,52 @@
 	padding:0;
 	box-sizing: border-box;
 }
+
+.raw{
+	width: 80%;
+	margin:20px auto 0px;
+}
+
+div.card{
+	width:350px;
+	height:500px;
+	margin-right:10px;
+	position:relative;
+}
+
+span.discounted-price{
+	color:red;
+}
+
+span.price{
+	text-decoration:line-through;
+}
+
+span.discount-amount{
+	left:0;
+	background-color: rgb(235, 0, 55);
+}
+
+span.sustainability{
+	left:40px;
+	background-color: rgb(0, 135, 90)
+}
+
+span.discount-amount, span.sustainability{
+	color:white;
+	padding:5px;
+	font-size:10px;
+	position:absolute;
+	bottom:10px;
+}
+span:not(.brand, .price){
+	font-weight: bold;
+}
+.card-img{
+	width:100%;
+}
+
+.card-description{
+	margin-top:5px;
+}
+
