@@ -12,7 +12,7 @@
 }
 
 div.card{
-	width:350px;
+	width:calc(100% / 3 - 60px);
 	height:500px;
 	margin-right:10px;
 	position:relative;
@@ -48,6 +48,7 @@ span.discount-amount, span.sustainability{
 span:not(.brand, .price){
 	font-weight: bold;
 }
+
 
 .card-img{
 	width:100%;
